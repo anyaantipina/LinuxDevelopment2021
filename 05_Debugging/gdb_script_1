@@ -1,0 +1,12 @@
+break range.c:6 if i%5 == 0
+    command 1
+    printf "@@@ %i, ", start
+    printf "%i, ", stop
+    printf "%i, ", step
+    printf "%i\n", i
+    continue
+end
+
+run
+
+quit

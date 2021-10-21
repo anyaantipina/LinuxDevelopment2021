@@ -1,0 +1,13 @@
+break range.c:6 if i < (start + step*35)
+    command 1
+    printf "@@@ %i, ", start
+    printf "%i, ", stop
+    printf "%i, ", step
+    printf "%i\n", i
+    continue
+end
+
+ignore 1 27
+run
+
+quit
