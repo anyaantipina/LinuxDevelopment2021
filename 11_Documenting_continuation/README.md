@@ -6,7 +6,7 @@ make
 man -l doxygen-doc/man/man1/guess_the_number.c.1   
    
 NB! On my computer, the directory with the .mo file is called "ru_RU/LC_MESSAGES/".   
-It may be different on yours. Use ltrace to find which directory to search in.
+It may be different on yours. Use strace to find which directory to search in.
    
 Earlier, I encountered an error when trying to connect doxygen to autotools and    
 therefore could not finish my homework on time.   
